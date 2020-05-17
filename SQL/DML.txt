@@ -1,0 +1,7 @@
+Data Manipulation Languaje son las sentencas que permiten (Crear, Listar, Actualizar y Eliminar) los datos dentro de una base de datos
+Ej:
+
+SELECT * FROM example;
+INSERT INTO example(name, lastname) VALUES('Miguel', 'Feo');
+UPDATE example SET name = 'Angel' WHERE id = 1;
+DELECT FROM example WHERE id = 3;

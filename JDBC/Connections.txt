@@ -1,0 +1,10 @@
+Existen tres formas de conectarse con la base de datos, que son:
+
+Se usa mas en aplicaiones de tipo SE
+DriverManager: Esta clase nos permite conectarnos haciedo uso del Class.forName();
+
+Esta es usada mas comunmente en Aplicaciones e tipo Enterprise (Web)
+DataSource: Aplica el concepto de data source, que consiste en conectarse desde un servidor como lo puede ser, Tomcat o GrassFish
+y para configurar la conexion se usa algo llamado JNDI (Java Namening and Directory Interface) la cual es un API de Java para el manejo de directorio de recursos
+
+Pool Connections:

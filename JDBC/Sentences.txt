@@ -1,0 +1,17 @@
+Estas son las interfaces que podemos usar cuando queremos ejecutar una sentencia SQL
+
+Statement:
+    Se utiliza para cualquier tipo de sentencia SQL, pero no hace cache del SQL ejecutar
+    Sus metodos son:
+        - executeQuery(String SQL) Regresa un objeto de tipo resultSet para procesar los registros (SELECT)
+        - executeUpdate(String SQL) Regresa un int con la cantidad de registros que se han modificado (UPDATE, INSERT, DELETE, CREATE "Table, truncate, etc"(DML - DDL)etc)
+        - execute(String SQL) Regresa un boolean con el resultado de la operción (Cualquier tipo de sentencia)
+
+
+PreparedStatement:
+    Se usa para hacer cache del Query a ejecutar evitando la recompilación de la sentencia SQL
+    Si es necesario ejecutar una sentencia SQL en varias ocasiones, es recomendable hacer uso de esta interfaz
+
+CallableStatement:
+    Se utiliza para llamar a procedimientos almacenados en una base de datos
+    Devuelve true si se ejecuto una sentencia SELECT con un resultado resultSet y false cuando se ejecuto cualquier otro tipo de sentencia
