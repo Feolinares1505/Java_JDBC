@@ -1,0 +1,6 @@
+Las transacciones son un conjunto de instrucciones agrupadas en un bloque de ejecución
+Las transacciones agrupan varias sentencias SQL y si algo falla, no se deben hacer los cambios en la DDBB
+
+- Autocomit
+- Commit
+- Rollback

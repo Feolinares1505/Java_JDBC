@@ -1,4 +1,7 @@
-package com.jdbc;
+package com.jdbc.data;
+
+import com.jdbc.data.ConnectionUse;
+import com.jdbc.domain.Product;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

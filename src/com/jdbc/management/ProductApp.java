@@ -1,4 +1,6 @@
-package com.jdbc;
+package com.jdbc.management;
+
+import com.jdbc.data.ProductJDBC;
 
 public class ProductApp {
     public static void main(String[] args) {
